@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local MCQ Test Maker | PDF to Online Test</title>
+    <meta name="description" content="Local-first MCQ test maker. Parses SSC exam PDFs into interactive practice/sprint tests using deterministic regex parsing with LLM vision fallbacks (Ollama & Gemini).">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rajatyofficial.github.io/pdf-to-online-test-maker/">
+    <meta property="og:title" content="Local MCQ Test Maker">
+    <meta property="og:description" content="Parse SSC exam PDFs into interactive practice tests using regex parsing and AI vision fallbacks.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <header class="hero">
+        <div class="glass-container">
+            <div class="badge">Open Source Project</div>
+            <h1 class="gradient-text">PDF to Online Test Maker</h1>
+            <p class="subtitle">Transform SSC Exam PDFs into Interactive Local Tests</p>
+            <p class="description">A powerful, local-first web application that uses deterministic regex parsing and AI vision fallbacks (Ollama & Gemini) to effortlessly convert your study materials into interactive practice sessions.</p>
+            <div class="actions">
+                <a href="https://github.com/rajatyofficial/pdf-to-online-test-maker/releases/latest" class="btn primary-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    Download .EXE
+                </a>
+                <a href="https://github.com/rajatyofficial/pdf-to-online-test-maker" class="btn secondary-btn" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <h2 class="section-title">Why Choose Our Test Maker?</h2>
+        <div class="feature-grid">
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">🔒</div>
+                <h3>Local-First & Secure</h3>
+                <p>Run entirely offline on your own hardware. Tests and progress are saved securely to your local SQLite database.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">🧠</div>
+                <h3>AI Vision Fallback</h3>
+                <p>If a question contains complex math or LaTeX, it seamlessly repairs using Local Ollama or Google Gemini API.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="feature-icon">⚡</div>
+                <h3>Multiple Modes</h3>
+                <p>Practice in a relaxed environment, sprint through sections, or simulate a full timed test seamlessly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase" id="screenshots">
+        <h2 class="section-title">See It In Action</h2>
+        <p class="showcase-subtitle">A glimpse into the sleek and efficient interface designed for maximum productivity.</p>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <div class="image-wrapper">
+                    <img src="assets/screenshots/5dashboard.png" alt="Dashboard" loading="lazy">
+                </div>
+                <div class="caption">
+                    <h4>Your Local Dashboard</h4>
+                    <p>Track your test imports and progress in one place</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-wrapper">
+                    <img src="assets/screenshots/1file_upload_page.png" alt="File Upload Page" loading="lazy">
+                </div>
+                <div class="caption">
+                    <h4>Simple File Upload</h4>
+                    <p>Select your SSC exam PDFs for quick parsing</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-wrapper">
+                    <img src="assets/screenshots/2started_test_generation.png" alt="Started Test Generation" loading="lazy">
+                </div>
+                <div class="caption">
+                    <h4>AI-Powered Parsing</h4>
+                    <p>Smart extraction with fallback LLM capabilities</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-wrapper">
+                    <img src="assets/screenshots/3import_complete.png" alt="Import Complete" loading="lazy">
+                </div>
+                <div class="caption">
+                    <h4>Import Summary</h4>
+                    <p>Review successfully extracted questions</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div class="image-wrapper">
+                    <img src="assets/screenshots/4section_wise_test.png" alt="Section Wise Test" loading="lazy">
+                </div>
+                <div class="caption">
+                    <h4>Interactive Testing</h4>
+                    <p>Take tests section-wise with a clean, distraction-free UI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content glass-panel">
+            <div class="footer-brand">
+                <span class="gradient-text-small">MCQ Test Maker</span>
+            </div>
+            <div class="footer-links">
+                <p>Open Source Project by <a href="https://github.com/rajatyofficial" target="_blank">rajatyofficial</a></p>
+                <p class="license">MIT Licensed</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
