@@ -1,0 +1,9 @@
+{
+  "name": "local-mcq-test-maker",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "katex": "^0.16.22"
+  }
+}
+
